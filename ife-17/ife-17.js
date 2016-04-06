@@ -124,8 +124,24 @@ function initCitySelector() {
  */
 function initAqiChartData() {
     // 将原始的源数据处理成图表需要的数据格式
-    
+    var week = {}, count = {}, month = {}, mcount = {}, singleWeek = {}, singleMonth = {};
+
     // 处理好的数据存到 chartData 中
+    for (var key in aqiSourceData) {
+        var tempCity = aqiSourceData[key];
+        var keyArr = Object.getOwnPropertyNames(tempCity);
+        var tempMonth = keyArr[0].slice(5, 7);
+        var weekInit = 4, weekCount = 0;
+        for (var i = 0; i < keyArr.length; i++, weekCount++) {
+            count += tempCity[keyArr[i]];
+            mcount += tempCity[keyArr[i]];
+            weekCount++;
+            if((weekInit+1)%7==0||i==keyArr.length-1||keyArr[i+1].slice(5,7)!==tempMonth){
+
+            }
+        }
+    }
+
 }
 
 /**
