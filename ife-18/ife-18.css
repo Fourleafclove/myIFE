@@ -1,0 +1,13 @@
+.box{
+    display: inline-block;
+    min-width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: #393939 1px solid;
+    margin-right: 5px;
+    padding:0 3px;
+}
+.box:hover{
+    cursor: pointer;
+}
