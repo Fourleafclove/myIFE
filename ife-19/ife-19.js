@@ -7,6 +7,7 @@ var dataArr = [];
 /**
  * 随机数据*/
 function randomData(){
+    dataArr = [];
     for(var i = 0;i<30;i++){
     dataArr.push(Math.random()*90+10);
     }
