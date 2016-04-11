@@ -6,9 +6,9 @@
 var dataArr = [];
 /**
  * 渲染*/
-$ = function(e){
+$ = function (e) {
     return document.querySelector(e);
-}
+};
 function render() {
     var wrap = $("#wrap");
     var html = '';
@@ -22,10 +22,12 @@ function render() {
     }
 
 }
-/*
 function leftIn() {
-    var value = document.getElementById("input").value;
-    dataArr.unshift(value);
+    var value = getValue();
+    for (var i = 0; i < value.length; i++) {
+        dataArr.unshift(value[i]);
+
+    }
     render();
 }
 function leftOut() {
@@ -33,15 +35,17 @@ function leftOut() {
     render();
 }
 function rightIn() {
-    var value = document.getElementById("input").value;
-    dataArr.push(value);
+    var value = getValue();
+    for (var i = 0; i < value.length; i++) {
+        dataArr.push(value[i]);
+
+    }
     render();
 }
 function rightOut() {
     dataArr.pop();
     render();
 }
-*/
 
 /**
  * 删除数组指定元素*/
@@ -65,14 +69,31 @@ function getIndex(ele) {
  * 根据获得的索引删除元素*/
 function delet() {
     var index = getIndex(this);
-    dataArr=dataArr.del(index);
+    dataArr = dataArr.del(index);
     render();
 }
+
+function getValue() {
+    var value = $("#input").value.toString();
+    return value.split(/\s+/);
+
+}
+function search() {
+    render();
+    var key =$("#search").value.toString();
+    var regExp = new RegExp(key,"g");
+    var boxs = document.getElementsByClassName("box");
+    for(var i = 0 ; i< boxs.length;i++){
+        var html = boxs[i].innerHTML;
+        boxs[i].innerHTML = html.replace(regExp,"<span style='color:red;'>"+key+"</span>")
+    }
+}
 function init() {
- /*   document.getElementById("left-in").onclick = leftIn;
-    document.getElementById("left-out").onclick = leftOut;
-    document.getElementById("right-in").onclick = rightIn;
-    document.getElementById("right-out").onclick = rightOut;*/
+    $("#left-in").onclick = leftIn;
+    $("#left-out").onclick = leftOut;
+    $("#right-in").onclick = rightIn;
+    $("#right-out").onclick = rightOut;
+    $("#btn-search").onclick = search;
     render();
 }
 init();
