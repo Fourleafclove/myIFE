@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ife-22</title>
+    <style>
+        div {
+            display: flex;
+            margin: auto;
+            border: 1px black solid;
+            background-color: #fff;
+            width: calc(50% - 20px);
+            height: calc(70% - 10px);
+        }
+
+        #container {
+            width: 800px;
+            height: 300px;
+        }
+
+        .active {
+            background-color: red;
+        }
+        #preOrder{
+            margin-left: 500px;
+        }
+        button{
+            margin-top: 20px;;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div>
+        <div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</div>
+<button id="preOrder" >先序遍历</button>
+<button id="inOrder">中序遍历</button>
+<button id="postOrder">后序遍历</button>
+<script src="ife-22.js"></script>
+</body>
+</html>
