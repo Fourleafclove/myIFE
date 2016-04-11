@@ -1,14 +1,14 @@
 /**
  * Created by MacBook on 16/4/8.
  */
-/**
- * 存储数字*/
 var dataArr = [];
-/**
- * 渲染*/
 $ = function (e) {
     return document.querySelector(e);
 };
+/**
+ * 存储数字*/
+/**
+ * 渲染*/
 function render() {
     var wrap = $("#wrap");
     var html = '';
@@ -85,7 +85,7 @@ function search() {
     var boxs = document.getElementsByClassName("box");
     for(var i = 0 ; i< boxs.length;i++){
         var html = boxs[i].innerHTML;
-        boxs[i].innerHTML = html.replace(regExp,"<span style='color:red;'>"+key+"</span>")
+        boxs[i].innerHTML = html.replace(regExp,"<span style='color: red;'>"+key+"</span>")
     }
 }
 function init() {
