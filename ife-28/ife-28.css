@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000;
+}
+
+.circle {
+    /*border-radius: 50%;*/
+    border: 1px solid #ffffff;
+    position: absolute;
+}
+
+.ship {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -50%;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: left;
+    border: 1px solid #ffffff;
+    background-color: #8fccff;
+    font-weight: bold;
+    overflow: hidden;
+
+}
+
+.energy {
+    width: 100%;
+    height: 100%;
+    background-color: #e74f4d;
+}
+
+.energy span {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: darkred;
+}
+
+#track4 {
+    width: 700px;
+    height: 700px;
+    top: 100px;
+    left: 100px;
+}
+
+#track3 {
+    width: 600px;
+    height: 600px;
+    top: 150px;
+    left: 150px;
+}
+
+#track2 {
+    width: 500px;
+    height: 500px;
+    top: 200px;
+    left: 200px;
+}
+
+#track1 {
+    width: 400px;
+    height: 400px;
+    top: 250px;
+    left: 250px;
+}
