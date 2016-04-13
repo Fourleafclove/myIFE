@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Microsoft YaHei", yaHei;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+#wrap {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px 5px #aea6a2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#content {
+    width: 90%;
+    margin-left: 5%;
+}
+
+input {
+    margin: 15px 0;
+    width: 60%;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 200;
+    border: 1px #878787 solid;
+    border-radius: 5px;
+}
+
+label {
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+#submit {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+.hint{
+    display: block;
+    margin-top: -10px;
+    margin-left: 110px;
+    font-weight: 100;
+}

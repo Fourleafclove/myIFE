@@ -1,0 +1,15 @@
+#wrap{
+    display: flex;
+    height: 500px;
+    align-items: flex-end;
+}
+.box{
+    /*display: inline-block;*/
+    width: 30px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #e74f4d;
+}
+.box:hover{
+    cursor: pointer;
+}

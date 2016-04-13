@@ -2,57 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="908ecd24-4172-488f-bd65-b0351b6dbb58" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-13/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-13/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-13/.idea/ife-13.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-13/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-13/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-13/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-13/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-14/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-15/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-16/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-16/task.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/.idea/ife-7.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/_路径_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0000s_0006__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0000s_0007__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0000s_0008__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0000s_0009__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0001s_0000__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0002s_0006__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0002s_0008__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0002s_0010__图像_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0003s_0002__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0003s_0010_TIME.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0003s_0012_图七.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0004s_0012__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0004s_0015__路径_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0006s_0001__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0007s_0005__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0007s_0006__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0007s_0007__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0007s_0008__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0008s_0005_图一.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0009s_0000_新世界.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0009s_0003__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0009s_0004__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_0000s_0009s_0005__编组_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/task_1_7_1_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/剪头.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/图一遮罩 拷贝.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/images/图二遮罩.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ife-7/mycss.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ife-17/ife-17.html" afterPath="$PROJECT_DIR$/ife-17/ife-17.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ife-17/ife-17.js" afterPath="$PROJECT_DIR$/ife-17/ife-17.js" />
     </list>
     <ignored path="myIFE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,6 +50,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="2" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="773" />
@@ -133,6 +86,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="myIFE" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myIFE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myIFE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -218,7 +181,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="0" />
+    <frame x="2" y="23" width="1280" height="773" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -301,7 +264,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.62940276">
           <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
