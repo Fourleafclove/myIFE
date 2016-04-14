@@ -28,21 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Iife-30.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IFE-30/Iife-30.html">
+      <file leaf-file-name="Iife-30.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ife-30/Iife-30.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.612904">
-              <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.49358973">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ife-30.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IFE-30/ife-30.js">
+      <file leaf-file-name="ife-30.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ife-30/ife-30.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0076336">
-              <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="147" column="27" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="27" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -51,10 +51,10 @@
         </entry>
       </file>
       <file leaf-file-name="ife-30.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IFE-30/ife-30.css">
+        <entry file="file://$PROJECT_DIR$/ife-30/ife-30.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7096774">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            <state vertical-scroll-proportion="-48.967743">
+              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -109,8 +109,8 @@
         <option value="$PROJECT_DIR$/ife-28/ife-28.css" />
         <option value="$PROJECT_DIR$/ife-37/css.css" />
         <option value="$PROJECT_DIR$/ife-15/index.html" />
-        <option value="$PROJECT_DIR$/IFE-30/ife-30.css" />
         <option value="$PROJECT_DIR$/IFE-30/Iife-30.html" />
+        <option value="$PROJECT_DIR$/IFE-30/ife-30.css" />
         <option value="$PROJECT_DIR$/IFE-30/ife-30.js" />
       </list>
     </option>
@@ -194,7 +194,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="IFE-30" />
+              <option name="myItemId" value="ife-30" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -743,14 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IFE-30/Iife-30.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.612904">
-          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ife-37/mask.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.0152671">
@@ -759,21 +751,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IFE-30/ife-30.css">
+    <entry file="file://$PROJECT_DIR$/ife-30/ife-30.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7096774">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state vertical-scroll-proportion="-48.967743">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IFE-30/ife-30.js">
+    <entry file="file://$PROJECT_DIR$/ife-30/ife-30.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0076336">
-          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="147" column="27" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="27" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ife-30/Iife-30.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49358973">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
