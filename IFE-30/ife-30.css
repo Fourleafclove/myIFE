@@ -64,11 +64,12 @@ label {
     margin-top: -10px;
     margin-left: 110px;
     font-weight: 100;
+    color: #8d8581;
 }
 
 .input-error{
     border: red 1px solid;
 }
-.input-error{
+.input-success{
     border: #2bd93b 1px solid;
 }
