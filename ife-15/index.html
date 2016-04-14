@@ -79,6 +79,7 @@
     function render(data) {
         var index = ["一", "二", "三", "四", "五", "六", "七"];
         var resort = document.getElementById("resort");
+        resort.innerHTML="";
         for (var i = 0; i < data.length; i++) {
             var node = document.createElement("li");
             node.innerHTML = "第" + index[i] + "名:" + data[i][0] + "空气质量:<b>" + data[i][1] + "</b>";
