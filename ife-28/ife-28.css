@@ -22,8 +22,9 @@ body{
     line-height: 40px;
     vertical-align: middle;
     text-align: left;
+    border-radius: 15px;
     border: 1px solid #ffffff;
-    background-color: #ff00ff;
+    background-color: #ffff00;
     font-weight: bold;
     overflow: hidden;
 }
