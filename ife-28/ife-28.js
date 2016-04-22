@@ -249,7 +249,7 @@ function BUS(id,content){
             message.shipStatus=adapter(content.slice(4,8),1);
             message.shipEnergy=adapter(content.slice(8),1);
             Planet.acceptSystem(message);
-             console.log(JSON.stringify(message))
+             //console.log(JSON.stringify(message))
         }
         //传递信息
         else {
