@@ -1,5 +1,5 @@
 html{
-    height: 100%;;
+    height: 100%;
 }
 body{
     margin: 0;
@@ -81,13 +81,16 @@ table{
     background-color: #ffffff;
     border: 1px solid #000000;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    z-index: 1000;
     font-size: 0.8em;
+}
+#table{
+    top:0;
+    left:0;
 }
 #screen{
     right: 0;
-    top:450px;
+    bottom:0;
 }
 #screen td{
     min-width: 100px;

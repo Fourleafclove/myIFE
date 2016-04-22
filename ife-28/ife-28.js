@@ -10,7 +10,44 @@ var commandList=["fly","stop","destroy"];
 window.console.log=function(str,color){
     $("#console").append('<p style="color: '+color+';">'+str+'</p>');
 };
+//拖动
+function addDrag(div) {
+
+    div.onmousedown = function (e) {
+        var event = e || window.event;
+        var disL = event.clientX - div.offsetLeft;
+        var disT = event.clientY - div.offsetTop;
+        var maxL = document.documentElement.clientWidth - div.offsetWidth;
+        var maxT = document.documentElement.clientHeight - div.offsetHeight;
+
+        document.onmousemove = function (e) {
+            var event = e || window.event;
+            var disX = event.clientX - disL;
+            var disY = event.clientY - disT;
+
+            if (disX < 0) {
+                disX = 0
+            }
+            if (disY < 0) {
+                disY = 0
+            }
+            if (disX > maxL) {
+                disX = maxL
+            }
+            if (disY > maxT) {
+                disY = maxT
+            }
+
+            div.style.left = disX + "px";
+            div.style.top = disY + "px";
+        };
+        div.onmouseup = function () {
+            document.onmousemove = null;
+        }
+    }
+}
 //飞船工厂
+
 function spaceShipFactory(track,powerType,energyType) {
     var spaceShip = {
         id: track,
@@ -126,7 +163,7 @@ function spaceShipFactory(track,powerType,energyType) {
         }
     };
     return spaceShip;
-};
+}
 var Planet={
     //信号接收器
     acceptSystem:function(message){
@@ -140,7 +177,7 @@ var Planet={
     //控制中心
     controlCenter:function(){
         //绑定指令事件
-        $(".button").bind("click",function(){
+        $(".button").on("click",function(){
             var id=$(this).data("target");
             var content=$(this).html();
             var powerType=$("input[name=power]:checked").val();
@@ -152,8 +189,10 @@ var Planet={
                         shipList.push(ship);
                         ship.sendShip();
                         console.log("飞船发射成功","green");
-                    }else
+                    }else{
                         console.log("创建失败,轨道上已有飞船！","red");
+
+                    }
                     $(this).html("destroy");
                     break;
                 case "destroy":
@@ -210,7 +249,7 @@ function BUS(id,content){
             message.shipStatus=adapter(content.slice(4,8),1);
             message.shipEnergy=adapter(content.slice(8),1);
             Planet.acceptSystem(message);
-            // console.log(JSON.stringify(message))
+             console.log(JSON.stringify(message))
         }
         //传递信息
         else {
@@ -224,3 +263,6 @@ function BUS(id,content){
     }
 };
 Planet.controlCenter();
+addDrag(document.getElementById("screen"));
+addDrag(document.getElementById("table"));
+
