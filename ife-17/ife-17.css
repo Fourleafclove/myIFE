@@ -16,8 +16,6 @@ fieldset {
 }
 #city-select {
     box-sizing: border-box;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
     background-color: #ffffff;
     outline: none;
@@ -37,20 +35,20 @@ fieldset {
     border-radius: 15px;
     overflow: hidden;
 }
-@keyframes heightAnim {
-    0% {
-        bottom: -300px;
-    }
-    100% {
-        bottom: 0;
-    }
+/*@keyframes heightAnim {*/
+    /*0% {*/
+        /*bottom: -300px;*/
+    /*}*/
+    /*100% {*/
+        /*bottom: 0;*/
+    /*}*/
 
-}
+/*}*/
 .aqi-bar {
     position: absolute;
     bottom: 0;
     cursor: pointer;
-    animation: heightAnim .5s ease-in-out;
+    /*animation: heightAnim .5s ease-in-out;*/
 }
 label {
     position: relative;
@@ -62,7 +60,7 @@ label span {
     display: block;
     text-align: center;
     line-height: 50px;
-    border: 1px solid #16324a;
+    border: 1px solid #878787;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -73,14 +71,14 @@ label input {
     opacity: 0;
 }
 .selected {
-    background-color: #16324a;
+    background-color: #878787;
     color: white;
 }
 .aqi-hint {
     position: absolute;
     display: none;
     width: 120px;
-    border: 1px solid #16324a;
+    border: 1px solid #878787;
     background-color: white;
     z-index: 999;
     font-size: .75rem;
